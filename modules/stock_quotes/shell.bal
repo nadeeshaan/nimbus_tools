@@ -2,8 +2,6 @@ import ballerina/io;
 import ballerina/regex;
 import ballerina/websocket as ws;
 
-// import ballerina/websocket as ws;
-
 public function main() {
     io:println("Welcome to Nimbus Stock Quote Tool!");
     string symbolNames = io:readln("Enter Comma Separated Symbol Names\n>:");
