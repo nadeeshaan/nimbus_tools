@@ -1,0 +1,7 @@
+[package]
+org = "nadeeshaan"
+name = "nimbus_tools"
+version = "0.1.0"
+
+[build-options]
+observabilityIncluded = true
